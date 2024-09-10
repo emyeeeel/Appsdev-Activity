@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appsdev Activity 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="assets/SEEKurityLogo.png" alt="Logo" class="logo">
+    </header>
+
+    <div class="form-container">
+        <form id="user-form">
+            <label for="user-name">Name:</label><br>
+            <input type="text" id="user-name" name="name" placeholder="Enter your name" required><br>
+                
+            <label for="user-email">Email:</label><br>
+            <input type="email" id="user-email" name="email" placeholder="Enter your email" required><br>
+                
+            <label for="user-age">Age:</label><br>
+            <input type="text" id="user-age" name="age" placeholder="Enter your age" required><br>
+            
+            <label for="user-dropdown">Which option best describes you?:</label><br>
+            <select id="user-dropdown" name="dropdown" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="student">Student</option>
+                <option value="x">Option x</option>
+                <option value="y">Option y</option>
+                <option value="z">Option z</option>
+            </select><br>
+    
+            <label for="recommendation">Would you recommend Computer Science for a friend?</label><br>
+            <input type="radio" id="recommend-yes" name="recommendation" value="Yes" required>
+            <label for="recommend-yes">Yes</label><br>
+            <input type="radio" id="recommend-no" name="recommendation" value="No">
+            <label for="recommend-no">No</label><br>
+            <input type="radio" id="recommend-maybe" name="recommendation" value="Maybe">
+            <label for="recommend-maybe">Maybe</label><br>
+    
+            <label for="languages-known">Languages and Frameworks known (Check all that apply)</label><br>
+            <input type="checkbox" id="language-c" name="languages" value="C">
+            <label for="language-c">C</label><br>
+            <input type="checkbox" id="language-cpp" name="languages" value="C++">
+            <label for="language-cpp">C++</label><br>
+            <input type="checkbox" id="language-csharp" name="languages" value="C#">
+            <label for="language-csharp">C#</label><br>
+            <input type="checkbox" id="language-java" name="languages" value="Java">
+            <label for="language-java">Java</label><br>
+            <input type="checkbox" id="language-python" name="languages" value="Python">
+            <label for="language-python">Python</label><br>
+            <input type="checkbox" id="language-javascript" name="languages" value="JavaScript">
+            <label for="language-javascript">JavaScript</label><br>
+            <input type="checkbox" id="language-react" name="languages" value="React">
+            <label for="language-react">React</label><br>
+            <input type="checkbox" id="language-angular" name="languages" value="Angular">
+            <label for="language-angular">Angular</label><br>
+            <input type="checkbox" id="language-django" name="languages" value="Django">
+            <label for="language-django">Django</label><br>
+            <input type="checkbox" id="language-spring" name="languages" value="Spring">
+            <label for="language-spring">Spring</label><br>
+    
+            <label for="user-comments">Any comments or suggestions:</label><br>
+            <textarea id="user-comments" name="comments" rows="4"></textarea><br>
+    
+            <input id="submit-button" type="submit" value="Submit">
+        </form> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
