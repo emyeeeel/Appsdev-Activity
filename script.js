@@ -27,3 +27,19 @@ form.addEventListener('submit', function(event) {
         '\nComments: ' + comments
     );
 });
+
+
+
+/* 
+
+Script used without displaying user input information
+
+const form = document.getElementById('user-form');
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    alert('SUCCESS');
+});
+
+*/
