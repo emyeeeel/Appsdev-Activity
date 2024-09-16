@@ -20,13 +20,23 @@ header {
     height: auto; 
 }
 
-.form-container {
+.form-outer-container {
     width: 40%;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px; 
+    box-sizing: border-box; 
+    background-color: #2053BB;
+}
+
+.form-inner-container {
+    width: 100%;
     text-align: center;
     border: 1px solid black;
     margin: 0 auto;
     padding: 20px; 
     box-sizing: border-box; 
+    background-color: white;
 }
 
 #user-form{
@@ -41,3 +51,28 @@ header {
     background-color: #2053BB;
     color: #F2F2F2;
 }
+
+.content-container {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.data-inputs{
+    width: 55%;
+    text-align: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
